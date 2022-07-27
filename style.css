@@ -21,10 +21,11 @@ body {
 
 /* hero container */
 
-.container.bg-dark {
+.bg-dark {
     background-color: #1F2937;
     color: #F9FAF8;
 }
+
 
 /* Header */
 
@@ -120,6 +121,43 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+/* Testimonial */
+
+.bg-gray {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-para {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.author {
+    display: flex;
+    justify-content: end;
+    align-items: flex-start;
+}
+
+
+blockquote {
+    font-weight: 700;
+}
+
+.quote p {
+    max-width: 850px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+
 
 /* Generic Styles */
 
