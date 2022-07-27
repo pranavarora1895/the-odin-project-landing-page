@@ -158,6 +158,43 @@ blockquote {
     color: #1F2937;
 }
 
+/* Call to Action */
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-box {
+    margin: 64px 0px;
+    width: 750px;
+    height: 100px;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 34px;
+    color: #E5E7EB;
+}
+
+.cta-left {
+    max-width: 550px;
+}
+
+.cta-primary-text {
+    font-weight: 800;
+}
+
+.cta-secondary {
+    font-weight: 300;
+}
+
+.cta-left p {
+    margin: 5px 0px;
+}
 
 /* Generic Styles */
 
@@ -169,4 +206,12 @@ button {
     border: none;
     font-weight: bold;
     border-radius: 8px;
+}
+
+.cta button {
+    border: 1px solid #E5E7EB;
+}
+
+footer {
+    text-align: center;
 }
