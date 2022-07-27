@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-    padding: 20px 100px;
+    padding: 20px 250px;
 }
 
 /* hero container */
@@ -32,7 +32,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 0px 100px; */
 }
 
 .header .logo {
@@ -44,7 +43,7 @@ body {
     list-style: none;
     display: flex;
     justify-content: space-evenly;
-    gap: 8px;
+    gap: 28px;
 }
 
 .header a {
@@ -58,7 +57,7 @@ body {
 .hero {
     display: flex;
     margin: 100px 0px;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -82,6 +81,47 @@ body {
     border-radius: 10%;
     box-shadow: #F9FAF8;
 }
+
+/* Information Section */
+
+.information-header {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.information {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 63px;
+    margin: 65px 0px;
+}
+
+.info-detail {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info-detail p {
+    flex: auto;
+    max-width: 150px;
+    text-align: center;
+}
+
+.card {
+    flex: auto;
+    width: 114px;
+    height: 114px;
+    border: 4px solid #3882F6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Generic Styles */
 
 button {
     cursor: pointer;
