@@ -120,6 +120,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #1F2937;
 }
 
 /* Testimonial */
@@ -185,7 +186,7 @@ blockquote {
 }
 
 .cta-primary-text {
-    font-weight: 800;
+    font-weight: 600;
 }
 
 .cta-secondary {
@@ -214,4 +215,8 @@ button {
 
 footer {
     text-align: center;
+}
+
+footer a {
+    color: #F9FAF8;
 }
